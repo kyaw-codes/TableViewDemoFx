@@ -8,6 +8,10 @@ public class Person {
     private String email;
     private LocalDate dateOfBirth;
 
+    public Person() {
+
+    }
+
     public Person(String name, String gender, String email, LocalDate dateOfBirth) {
         this.name = name;
         this.gender = gender;
